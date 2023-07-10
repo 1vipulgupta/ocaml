@@ -3,7 +3,7 @@ unset PATH
 for p in $buildInputs; do
   export PATH=$p/bin${PATH:+:}$PATH
 done
-
+# echo $PATH
 mkdir $out
 cd $out
 
